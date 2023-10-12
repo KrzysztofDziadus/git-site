@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*tworzenie nawigacji*/
+.header {
+    background: #ffecd1;
+}
+
+.header .navbar {
+    display: flex;
+}
+
+.item-nav {
+    list-style: none;
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.item-nav a {
+    color: #5995DA;
+    text-decoration: none;
+}
+
+.item-nav a:hover {
+    color: #0085fa;
+}
+
+.logo {
+    margin: auto;
+    padding: 5px 20px;
+    font-size: 28px;
+    font-family: Verdana sans-serif;
+}
+
+.logo a {
+    color: #de6588;
+    font-weight: bold;
+}
+
+/*tworzenie nawigacji 2*/
+.header-two {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+    font-family: Besley, serif;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    border-bottom: 1px solid #ddd;
+}
+
+.left-side, .right-side {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-link li {
+    list-style-type: none;
+}
+
+.navbar-link li > a {
+    color: #663397;
+    font-weight: 550;
+}
+
+.logo-two {
+    padding: 20px 5px;
+    color: #663397;
+    font-weight: 999;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.notification {
+    color: white;
+    background: #663397;
+    border-radius: 8px;
+    padding: 5px 26px;
+    line-height: 20px;
+    box-sizing: border-box;
+    min-width: 168px;
+}
+
+.circle {
+    min-width: 45px;
+    height: 45px;
+    background: #663397;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
+}
+
+/*wycentrowanie elementu*/
+.container {
+    background: #0085fa;
+    border: 4px solid darkblue;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin: 40px auto;
+
+}
+
+.container .inner-container {
+    border: 5px solid #7b020b;
+    background: #de6588;
+    width: 80px;
+    height: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+/*warzywka*/
+.content {
+    background: #ffecd1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+
+.other-content {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.description {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.description .text {
+    font-size: 28px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+}
+
+/*okienko informacyjne*/
+.modal {
+    background: white;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+
+}
+
+.icon {
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    background: lavender;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.header-notification {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.close-button {
+    background: #eee;
+    border-radius: 50%;
+    color: #888;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 0;
+}
+
+.close-button:hover {
+    cursor: pointer;
+    background: #9f9f9f;
+}
+
+.all-content .text {
+    margin: 10px 45px 0 0;
+    text-align: justify;
+}
+
+.all-content .continue, .cancel {
+    background: white;
+    border: #85929E solid 1px;
+    border-radius: 6px;
+    padding: 5px 14px;
+    margin: 16px 0;
+}
+
+.cancel {
+    margin-right: auto;
+    margin-left: 6px;
+}
+
+.all-content .continue:hover, .cancel:hover {
+    background: #2f5fd7;
+    color: white;
+    cursor: pointer;
+}
+/*projekt przeglądarki*/

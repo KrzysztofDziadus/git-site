@@ -1,0 +1,11 @@
+* {
+    color: purple
+}
+
+.subsection#preview {
+    color: red;
+}
+
+.ancestor .contents {
+    color: green;
+}
